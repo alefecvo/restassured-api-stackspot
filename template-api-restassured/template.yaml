@@ -1,4 +1,4 @@
-name: template-restassured-api
+name: template-api-restassured
 description: "template dos testes de API com RestAssured"
 types:
   - app-template
