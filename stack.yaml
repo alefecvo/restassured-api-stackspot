@@ -11,5 +11,5 @@ about: docs/about.md
 use-cases:
   - title: Configurar ambiente
     content: docs/use-case.md
-    stackfile: stackfiles/default.yaml
+#    stackfile: stackfiles/default.yaml
 
