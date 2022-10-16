@@ -1,6 +1,6 @@
 package {{package_name}}.support.enums;
 
-import static serveRest.support.utils.GetProperties.getProp;
+import static {{package_name}}.support.utils.GetProperties.getProp;
 
 public enum ApiBaseUri {
     URI_SERVE_REST(getProp("baseurl"));
