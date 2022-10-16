@@ -1,6 +1,6 @@
 description: Projeto para teste automatizado pra APIs utilizando RestAssured
-name: stack-api-restassured
-display-name: stack-api-restassured
+name: restassured-api-stackspot
+display-name: restassured-api-stackspot
 picture: stack.png
 category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
@@ -10,7 +10,8 @@ technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/
 about: docs/about.md
 use-cases:
   - title: Configurar ambiente
-      content: docs/configuration.md
+    content: docs/configuration.md
   - title: Baixar stack
     content: docs/about.md
+    stackfile: stackfiles/default.yaml
 
