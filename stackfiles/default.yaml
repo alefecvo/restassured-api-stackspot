@@ -1,5 +1,5 @@
 type: app
 description: Projeto para teste automatizado pra APIs utilizando RestAssured
 # template used to create the project
-template: restassured-api-stackspot/template-api-restassured
+template: restassured-api-stackspot/<template-name>
 
