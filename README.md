@@ -1,2 +1,4 @@
-# restassured-api-stackspot
-repositório criado para geração de projeto para testes automatizados de API Restassured
+### Sobre
+A Stack API RestAssured te ajudará a configurar ambiente para realizar o desenvolvimento de testes automatizados
+
+

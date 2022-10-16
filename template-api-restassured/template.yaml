@@ -1,0 +1,24 @@
+name: template-restassured-api
+description: "template dos testes de API com RestAssured"
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project_name
+  - label: Digite o nome do pacote
+    type: text
+    name: package_name
+    default: zup.stackspot
+    required: true
+    global: true
+hooks:
+  - type: run
+    trigger: after-render
+    linux:
+      - mvn clean install -DskipTests=true
+    windows:
+      - cmd /C mvn clean install -DskipTests=true
+    mac:
+      - mvn clean install -DskipTests=true
