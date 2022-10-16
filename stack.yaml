@@ -1,0 +1,17 @@
+description: Projeto para teste automatizado pra APIs utilizando RestAssured
+name: stack-api-restassured
+display-name: stack-api-restassured
+picture: stack.png
+category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
+compatibility: # Put a list of technologies compatible with the stack
+  - java
+technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies 
+  - docker
+  - rest
+about: docs/about.md
+use-cases:
+  - title: Configurar ambiente
+      content: docs/configuration.md
+  - title: Baixar stack
+    content: docs/about.md
+
