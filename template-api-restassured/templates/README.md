@@ -16,6 +16,6 @@ stk list stack
 ### Para criar o projeto baseado no template:
 
 ```bash
-stk create app <nomeprojeto> -t stack-api-restassured/template-api-restassured
+stk create app <nomeprojeto> -t restassured-api-stackspot/template-api-restassured
 ```
 
